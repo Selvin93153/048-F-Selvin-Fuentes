@@ -1,10 +1,22 @@
 ##COMANDOS PARA EJECUTAR CADA PRUEBA
 
+#Actualizar contraseña
 npx playwright test tests/actualizar-contrasena.spec.ts --project=chromium --headed
+
+#Actualizar perfil
 npx playwright test tests/Actualizarperfil.spec.ts --project=chromium --headed
+
+#Apellido obligatorio
 npx playwright test tests/apellido-obligatorio.spec.ts --project=chromium --headed
+
+#Contraseña invalida
 npx playwright test tests/contrasena-invalida.spec.ts --project=chromium --headed
+
+#Nombre obligatorio
 npx playwright test tests/nombre-obligatorio.spec.ts --project=chromium --headed
 
 En los campos de "tuUsuario" y "tuPassword" cambiarle a al registro que sera de prueba.
+
+##DOCUMENTACION
+En la carpeta docs, se encuentra los reportes de errores y las tablas de casos de uso
 
