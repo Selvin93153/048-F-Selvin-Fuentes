@@ -1,0 +1,72 @@
+# Playwright
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+
+# Archivos de entorno (NUNCA subir)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Archivos temporales de Node / Runtime
+dist/
+build/
+out/
+coverage/
+temp/
+tmp/
+
+# Archivos de lock (opcional, si no quieres versionarlos)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Backups y archivos generados
+*.bak
+*.tmp
+*.swp
+
+# Archivos de aplicaciones
+*.sqlite*
+*.db
+
+# Archivos generados por sistema de TypeScript
+*.tsbuildinfo
+
+# Archivos multimedia pesados opcionales (si no quieres subirlos)
+# *.mp4
+# *.mov
+# *.zip
+# *.rar
+
+# Archivos de reportes o evidencia
+*.html
+*.xml
+*.json
+
+# Archivos de python (por si usas scripts)
+__pycache__/
+*.pyc
